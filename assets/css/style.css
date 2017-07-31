@@ -1,4 +1,17 @@
-#mainContainer {
-	background-image: url("../images/concrete-texture.png");
+body {
+	background-image: url("../images/grid.png");
 	background-repeat: repeat;
+}
+p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.pull-left {
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+div#mainContainer.container {
+	background-image: url("../images/gaming-pattern.png")
+	padding-top: 10px;
+
 }
