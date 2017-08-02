@@ -2,24 +2,22 @@ body {
 	background-image: url("../images/grid.png");
 	background-repeat: repeat;
 }
-/*p {
+p {
 	margin-left: 20px;
 	margin-right: 20px;
-}*/
-.pull-left {
+}
+img .pull-left {
 	margin-right: 20px;
 	margin-bottom: 10px;
 }
 
-
-
 @media screen and (max-width: 980px) {
   /* The body's bg color will be #333 */
-	
-  
-}
-
-
+  .img-responsive {
+    max-width: 25%;
+    min-width: 100px;
+  }
+}	
 
 @media screen and (max-width: 768px) {
   /* The body's bg color will be #333 */
@@ -29,9 +27,9 @@ body {
   #mainContent, #headerDiv {
     width: 500px;
   }
-  #connect, #navLinks {
+/*  #connect, #navLinks {
   	float: left;
-  	width: 100%;
+  	width: 100%;*/
   }
 }
 
@@ -45,9 +43,9 @@ body {
   #mainContent, #headerDiv {
     width: 500px;
   }
-  #connect {
+  /*#connect {
   	float: left;
-  	width; 100%
+  	width; 100%*/
   }
   #navLinks {
   	width: 100%;
