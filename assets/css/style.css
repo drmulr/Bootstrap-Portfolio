@@ -2,10 +2,10 @@ body {
 	background-image: url("../images/grid.png");
 	background-repeat: repeat;
 }
-p {
+/*p {
 	margin-left: 20px;
 	margin-right: 20px;
-}
+}*/
 .pull-left {
 	margin-right: 20px;
 	margin-bottom: 10px;
