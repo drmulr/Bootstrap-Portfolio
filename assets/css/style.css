@@ -1,56 +1,41 @@
 body {
-	background-image: url("../images/grid.png");
-	background-repeat: repeat;
+  background-image: url("../images/grid.png");
+  background-repeat: repeat;
 }
-p {
-	margin-left: 20px;
-	margin-right: 20px;
+img {
+  margin: 20px 15px 0px 0px;
+  position:relative;
 }
-img .pull-left {
-	margin-right: 20px;
-	margin-bottom: 10px;
-}
-
-@media screen and (max-width: 980px) {
-  /* The body's bg color will be #333 */
-  .img-responsive {
-    max-width: 25%;
-    min-width: 100px;
-  }
-}	
-
-@media screen and (max-width: 768px) {
-  /* The body's bg color will be #333 */
-  body {
-  }
-  /* The wrapper's width will be 600px */
-  #mainContent, #headerDiv {
-    width: 500px;
-  }
-/*  #connect, #navLinks {
-  	float: left;
-  	width: 100%;*/
-  }
+.panel {
+  padding-bottom: 15px;
 }
 
 
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
 
-@media screen and (max-width: 640px) {
-  /* The body's bg color will be #333 */
-  body {
-  }
-  /* The wrapper's width will be 600px */
-  #mainContent, #headerDiv {
-    width: 500px;
-  }
-  /*#connect {
-  	float: left;
-  	width; 100%*/
-  }
-  #navLinks {
-  	width: 100%;
-  }
-  header {
-  	position:static;
-  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+ .firstIcon {
+ 	margin-left: 25px;
+ }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller THIS ONE WORKS*/
+@media (max-width: 480px) {
+  .headShot {
+    width: 80%; 
+    margin: 0 0 15px 15px;
 }
